@@ -2,21 +2,10 @@
 #define DATATYPES_HH
 
 struct Task {
-    int pj;
-    int dj;
-    int rj;
+    int rj;     // task availability
+    int pj;     // execution time
+    int dj;     // expected finish time
 };
 
-class Permutations {
-    int n;
-    int *perm;
-    public:
-        Permutations();
-        ~Permutations();
-        inline const int & operator [](int i) { return perm[i]; };
-        // add more operators
-        inline void set(int i, int a) { perm[i] = a; };
-        inline int size() { return n; }
-};
 
 #endif // DATATYPES_HH
