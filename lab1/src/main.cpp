@@ -15,7 +15,7 @@ bool importData(std::string &fileName, std::fstream &dest) {
 }
 
 int main() {
-
+    printf("Dupa\n\r");
 
     return 0;
 }
