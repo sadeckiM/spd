@@ -17,6 +17,6 @@ class Permutations {
         // add more operators
         inline void set(int i, int a) { perm[i] = a; };
         inline int size() { return n; }
-}
+};
 
 #endif // DATATYPES_HH
