@@ -19,5 +19,15 @@ target_sources(Lab1 PRIVATE
 target_include_directories(Lab1 PRIVATE inc)
 
 if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
-    target_compile_options(Lab1 PRIVATE -Wall -Wfloat-conversion)
+    target_compile_options(Lab1 PRIVATE 
+    -Wall
+    -Wextra
+    -pedantic
+    -Werror=return-type
+    -Werror=parentheses
+    -Werror=vla
+    -Werror=array-bounds
+    -Wcast-qual
+    -Wmaybe-uninitialized
+)
 endif() 
