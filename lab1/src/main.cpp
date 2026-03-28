@@ -2,6 +2,7 @@
 #include "dataTypes.hh"
 #include "Permutation.hh"
 #include "solution.hh"
+#include "problem.hh"
 #include <iostream>
 #include <sstream>
 #include <vector>
@@ -9,27 +10,16 @@
 int main() {
     std::ostringstream dane;
     std::vector<Task> tasks;
-    std::string file("../test.txt");
+    std::string file("../test_borsuk.txt");
     importData(file, dane);
     int n = parse_dataset(dane, tasks);
     std::cout << "N: " << n << std::endl;
-    Permutation p(n);
-    Solution s(p, tasks);
-    int best_sol = INT_MAX;
-    std::vector<int> best_perm;
-    int temp;
-    do {
-    	//std::cout << p << std::endl;
-	//std::cout << "solution: " << s.get_solution() << std::endl;
-	temp = s.get_solution();
-	if (temp < best_sol){
-		best_sol = temp;
-		best_perm = p.perm;
-	}
-    } while(p.next_perm());
-
-    p.perm = best_perm;
-    std::cout << "Best solution: " << best_sol << std::endl;
-    std::cout << p << std::endl;
+    //Permutation p(n);
+    //solution s(p, tasks);
+    Problem problem(tasks, n);
+    std::cout << "Own algorithm: " << problem.own_algorithm() << std::endl;
+    //std::cout << "Brute-force: " << problem.brute_force() << std::endl;
+    //std::cout << "Sort dj: " << problem.sort_algorithm() << std::endl;
+    //std::cout << "Sort rj: " << problem.sort_algorithm(true) << std::endl;
     return 0;
 }

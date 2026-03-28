@@ -8,6 +8,7 @@ class Permutation {
 	int n = 0;
 public:
 	std::vector<int> perm;
+	Permutation(){ perm = {0};};
 	Permutation(int n_tasks) : n(n_tasks){
 		perm.resize(n);
 		for(int i=0; i<n; ++i){

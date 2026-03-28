@@ -7,7 +7,7 @@
 #include <climits>
 
 class Solution {
-  int current_L;
+  int current_L = 0;
   int solve();
   Permutation &p;
   std::vector<Task> &tasks;

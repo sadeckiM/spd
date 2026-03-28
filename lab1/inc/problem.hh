@@ -7,14 +7,14 @@
 class Problem {
   Permutation p; 
   Solution s;
-  int n = p.get_n(); 
-  std::vector<Task> &tasks;
+  int n;
+  std::vector<Task> &t;
 public:
-  int sort_algorithm();
+  int sort_algorithm(bool by_rj = false);
   int brute_force();
   int own_algorithm();
   int Shrage();
-  Problem(Permutation &perm, std::vector<Task> &t) : perm(p), tasks(t) {}
+  Problem(std::vector<Task> &tasks, int num);
 };
 
 #endif // PROBLEM_HH
