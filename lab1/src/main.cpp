@@ -4,7 +4,7 @@
 #include <sstream>
 
 int main() {
-    std::stringstream dane;
+    std::ostringstream dane;
     std::string file("../test.txt");
     printf("Dupa\n\r");
     importData(file, dane);

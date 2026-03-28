@@ -1,15 +1,26 @@
 #include "import_tools.hh"
 
-bool importData(std::string &fileName, std::stringstream &dest) {
-    std::ifstream file(fileName);
+const int MAX_LEN = 128;
 
-    if(!file.is_open()) {
-        std::cerr << "Failed to open file." << std::endl;
-        return false;
-    }
-    dest << file.rdbuf();
-    file.close();
-    return true;
+bool importData(std::string& file_name, std::ostringstream& dest) {
+  FILE * file = fopen(file_name.c_str(), "r");
+  if(!file) {
+    std::cerr << "importData: Error opening file" << std::endl;
+    return false;
+  }
+  std::string word;
+  char buf[MAX_LEN];
+
+  while(fgets(buf, MAX_LEN, file)) {
+    dest << buf;
+  }
+
+  if (fclose(file) != 0) {
+    std::cerr << "importData: Error closing file" << std::endl;
+    return false;
+  }
+
+  return true;
 }
 
 /*

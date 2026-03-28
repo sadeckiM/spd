@@ -7,7 +7,7 @@
 #include <fstream>
 #include "dataTypes.hh"
 
-bool importData(std::string &fileName, std::stringstream &dest);
+bool importData(std::string &fileName, std::ostringstream &dest);
 
 int parse_dataset(std::stringstream &data, std::list<Task> &tasks);
 
