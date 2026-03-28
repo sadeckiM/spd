@@ -1,6 +1,7 @@
 #include "solution.hh"
 
 int Solution::solve() {
+  int Lmax = INT_MIN;
   int t = 0;
   int n_tasks = p.get_n();
 
