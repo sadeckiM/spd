@@ -9,6 +9,6 @@
 
 bool importData(std::string &fileName, std::stringstream &dest);
 
-int parse_dataset(std::stringstream &data, std::list<Task> &tasks);
+int parse_dataset(std::ostringstream &data, std::list<Task> &tasks);
 
 #endif // IMPORT_TOOLS_HH

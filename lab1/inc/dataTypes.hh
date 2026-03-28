@@ -5,6 +5,8 @@ struct Task {
     int rj;     // task availability
     int pj;     // execution time
     int dj;     // expected finish time
+
+    Task(int r, int p, int d) : rj(r), pj(p), dj(d) {}
 };
 
 
