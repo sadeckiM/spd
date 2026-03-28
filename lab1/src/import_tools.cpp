@@ -1,7 +1,7 @@
 #include "import_tools.hh"
 #include <string>
 
-const int MAX_LEN = 128;
+#define MAX_LEN 128
 
 bool importData(std::string& file_name, std::ostringstream& dest) {
   FILE * file = fopen(file_name.c_str(), "r");
