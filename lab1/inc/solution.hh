@@ -10,11 +10,11 @@ class Solution {
   int Lmax = INT_MIN;
   int current_L;
   int solve();
-public:
-  Permutation p;
+  Permutation &p;
   std::vector<Task> &tasks;
-  int get_solution() {return Lmax;}
-  Solution();
+public:
+  int get_solution() {solve(); return Lmax;}
+  Solution(Permutation &perm, std::vector<Task> &t) : p(perm), tasks(t) {};
 };
 
 #endif 

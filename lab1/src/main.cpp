@@ -2,6 +2,7 @@
 #include "import_tools.hh"
 #include "dataTypes.hh"
 #include "Permutation.hh"
+#include "solution.hh"
 #include <iostream>
 #include <sstream>
 #include <vector>
@@ -15,10 +16,23 @@ int main() {
     int n = parse_dataset(dane, tasks);
     std::cout << "N: " << n << std::endl;
     Permutation p(n);
-    for(int i=0; i<10; ++i){
+    Solution s(p, tasks);
+    int best_sol = INT_MAX;
+    std::vector<int> best_perm;
+    int temp;
+    do {
     	std::cout << p << std::endl;
-	p.next_perm();
-    }
+	std::cout << "solution: " << s.get_solution() << std::endl;
+	temp = s.get_solution();
+	if (temp < best_sol){
+		best_sol = temp;
+		best_perm = p.perm;
+	}
+    } while(p.next_perm());
+
+    p.perm = best_perm;
+    std::cout << "Best solution: " << best_sol << std::endl;
+    std::cout << p << std::endl;
     //tasks[0].print();
     //tasks[1].print();
     //std::cout << dane.str() << std::endl;
