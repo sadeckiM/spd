@@ -13,7 +13,8 @@ public:
   int sort_algorithm(bool by_rj = false);
   int brute_force();
   int own_algorithm();
-  int Shrage();
+  int Schrage();
+  int Schrage_preemptive();
   Problem(std::vector<Task> &tasks, int num);
 };
 
