@@ -2,9 +2,8 @@
 
 int Solution::solve() {
   int t = 0;
-  int n_tasks = p.get_n();
 
-  for(int i = 0; i < n_tasks; ++i) {
+  for(int i = 0; i < p.get_n(); ++i) {
     t = std::max(t, tasks[p[i]].rj);
     t += tasks[p[i]].pj;
     

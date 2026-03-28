@@ -1,4 +1,3 @@
-#include "main.hh"
 #include "import_tools.hh"
 #include "dataTypes.hh"
 #include "Permutation.hh"

@@ -17,4 +17,4 @@ public:
   Solution(Permutation &perm, std::vector<Task> &t) : p(perm), tasks(t) {};
 };
 
-#endif 
+#endif // SOLUTION_HH
