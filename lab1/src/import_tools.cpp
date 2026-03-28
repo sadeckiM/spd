@@ -25,10 +25,10 @@ bool importData(std::string& file_name, std::ostringstream& dest) {
 }
 
 /*
- * Parse data from stringstream to list of tasks.
+ * Parse data from stringstream to vector of tasks.
  * Returns number of tasks
  */
-int parse_dataset(std::ostringstream &data, std::list<Task> &tasks) {
+int parse_dataset(std::ostringstream &data, std::vector<Task> &tasks) {
 	int n_tasks = 0;
 	std::istringstream input;
 	std::string word;
@@ -44,7 +44,7 @@ int parse_dataset(std::ostringstream &data, std::list<Task> &tasks) {
 		input >> word;
 		buffer[2] = std::stoi(word);
 
-		tasks.emplace_back(Task(buffer[0], buffer[1], buffer[2]));
+		tasks.emplace_back(buffer[0], buffer[1], buffer[2]);
 	}	
 
 	return n_tasks;
