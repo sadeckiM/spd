@@ -4,32 +4,44 @@
 #include <iostream>
 #include <algorithm>
 #include <queue>
-#include <functional>
+#include <chrono>
 
+using _clock_t = std::chrono::high_resolution_clock;
 
 Problem::Problem(std::vector<Task> &tasks, int num) : p(num), s(p,tasks), t(tasks){
 	n = num;
 }
 
 int Problem::sort_algorithm(bool by_rj) {
+  auto start = _clock_t::now();
 	if (by_rj) {
-  std::sort(p.perm.begin(), p.perm.end(), [&](const int a, const int b) {
+    std::sort(p.perm.begin(), p.perm.end(), [&](const int a, const int b) {
     return t[a].rj < t[b].rj;
-  });
+    });
 	} else {
-  std::sort(p.perm.begin(), p.perm.end(), [&](const int a, const int b) {
+    std::sort(p.perm.begin(), p.perm.end(), [&](const int a, const int b) {
     return t[a].dj < t[b].dj;
-  });
+    });
 	}
-	return s.get_solution();
+  int result = s.solve();
+  auto end = _clock_t::now();
+  std::string param = "by_dj): ";
+  if (by_rj) param = "by_rj): ";
+  std::cout << "t(" << param;
+  std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
+                                                           start).count() <<
+      " [ms]" << std::endl;
+
+	return result;
 }
 
 int Problem::brute_force() {
+  auto start = _clock_t::now();
   int best_sol = INT_MAX;
   std::vector<int> best_perm;
   int temp;
   do {
-	  temp = s.get_solution();
+	  temp = s.solve();
 	  if (temp < best_sol) {
 		  best_sol = temp;
 		  best_perm = p.perm;
@@ -39,22 +51,36 @@ int Problem::brute_force() {
   p.perm = best_perm;
   std::cout << "Best solution: " << best_sol << std::endl;
   std::cout << p << std::endl;
+  auto end = _clock_t::now();
+  std::cout << "t = ";
+  std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
+                                                           start).count() <<
+      " [ms]" << std::endl;
+
   return best_sol;
 }
 
 int Problem::own_algorithm(){
+  auto start = _clock_t::now();
 	int L;
 
 	for(int i = 0; i < n-1; ++i) {
-		L = s.get_solution();
+		L = s.solve();
 		iter_swap(p.perm.begin()+i, p.perm.begin()+i+1);
-		if(s.get_solution() > L) 
+		if(s.solve() > L) 
 			iter_swap(p.perm.begin()+i, p.perm.begin()+i+1);
 	}
-	return s.get_solution();
+  int result = s.solve();
+  auto end = _clock_t::now();
+  std::cout << "t = ";
+  std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
+                                                           start).count() <<
+      " [ms]" << std::endl;
+	return result;
 }
 
 int Problem::Schrage(){
+  auto start = _clock_t::now();
 	auto compare = [this](int a, int b) {
 		return t[a].dj > t[b].dj;
 	};
@@ -92,10 +118,16 @@ int Problem::Schrage(){
 		if(t[temp_task].rj > time && available.empty())
 			time = std::max(time, t[temp_task].rj);
 	}
+  auto end = _clock_t::now();
+  std::cout << "t = ";
+  std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
+                                                           start).count() <<
+      " [ms]" << std::endl;
 	return Lmax;
 }
 
 int Problem::Schrage_preemptive(){
+  auto start = _clock_t::now();
 	auto compare = [this](int a, int b) {
 		return t[a].dj > t[b].dj;	// Czy tutaj dodać
 						// porównawanie pj?
@@ -141,6 +173,12 @@ int Problem::Schrage_preemptive(){
 			time = std::max(time, t[temp_task].rj);
 	}
 
+
+  auto end = _clock_t::now();
+  std::cout << "t = ";
+  std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
+                                                           start).count() <<
+      " [ms]" << std::endl;
 	
 	return Lmax;
 }

@@ -15,5 +15,4 @@ struct Task {
     }
 };
 
-
 #endif // DATATYPES_HH

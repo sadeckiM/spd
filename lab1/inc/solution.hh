@@ -4,15 +4,13 @@
 #include "dataTypes.hh"
 #include "Permutation.hh"
 #include <vector>
-#include <climits>
 
 class Solution {
   int current_L = 0;
-  int solve();
   Permutation &p;
   std::vector<Task> &tasks;
 public:
-  int get_solution() {return solve();}
+  int solve();
   Solution(Permutation &perm, std::vector<Task> &t) : p(perm), tasks(t) {};
 };
 

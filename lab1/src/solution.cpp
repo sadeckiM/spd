@@ -1,4 +1,5 @@
 #include "solution.hh"
+#include <climits>
 
 int Solution::solve() {
   int Lmax = INT_MIN;

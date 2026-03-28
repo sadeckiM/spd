@@ -1,7 +1,5 @@
 #include "import_tools.hh"
 #include "dataTypes.hh"
-#include "Permutation.hh"
-#include "solution.hh"
 #include "problem.hh"
 #include <iostream>
 #include <sstream>
