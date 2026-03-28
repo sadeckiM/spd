@@ -10,7 +10,6 @@ int main() {
     std::ostringstream dane;
     std::vector<Task> tasks;
     std::string file("../test.txt");
-    printf("Dupa\n\r");
     importData(file, dane);
     int n = parse_dataset(dane, tasks);
     std::cout << "N: " << n << std::endl;
@@ -20,8 +19,8 @@ int main() {
     std::vector<int> best_perm;
     int temp;
     do {
-    	std::cout << p << std::endl;
-	std::cout << "solution: " << s.get_solution() << std::endl;
+    	//std::cout << p << std::endl;
+	//std::cout << "solution: " << s.get_solution() << std::endl;
 	temp = s.get_solution();
 	if (temp < best_sol){
 		best_sol = temp;
@@ -32,9 +31,5 @@ int main() {
     p.perm = best_perm;
     std::cout << "Best solution: " << best_sol << std::endl;
     std::cout << p << std::endl;
-    //tasks[0].print();
-    //tasks[1].print();
-    //std::cout << dane.str() << std::endl;
-
     return 0;
 }

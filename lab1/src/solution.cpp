@@ -1,6 +1,7 @@
 #include "solution.hh"
 
 int Solution::solve() {
+  int Lmax = INT_MIN;
   int t = 0;
 
   for(int i = 0; i < p.get_n(); ++i) {
