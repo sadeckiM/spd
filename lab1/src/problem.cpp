@@ -31,7 +31,7 @@ int Problem::sort_algorithm(bool by_rj) {
   std::cout << "t(" << param;
   std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
                                                            start).count() <<
-      " [ms]" << std::endl;
+      " [us]" << std::endl;
 
 	return result;
 }
@@ -56,7 +56,7 @@ int Problem::brute_force() {
   std::cout << "t = ";
   std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
                                                            start).count() <<
-      " [ms]" << std::endl;
+      " [us]" << std::endl;
 
   return best_sol;
 }
@@ -76,7 +76,7 @@ int Problem::own_algorithm(){
   std::cout << "t = ";
   std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
                                                            start).count() <<
-      " [ms]" << std::endl;
+      " [us]" << std::endl;
 	return result;
 }
 
@@ -123,7 +123,7 @@ int Problem::Schrage(){
   std::cout << "t = ";
   std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
                                                            start).count() <<
-      " [ms]" << std::endl;
+      " [us]" << std::endl;
 	return Lmax;
 }
 
@@ -179,7 +179,7 @@ int Problem::Schrage_preemptive(){
   std::cout << "t = ";
   std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
                                                            start).count() <<
-      " [ms]" << std::endl;
+      " [us]" << std::endl;
 	
 	return Lmax;
 }
