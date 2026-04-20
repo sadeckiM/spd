@@ -6,7 +6,7 @@
 #include <vector>
 
 class Solution {
-  int current_L = 0;
+  //int current_L = 0;
   Permutation &p;
   std::vector<Task> &tasks;
 public:

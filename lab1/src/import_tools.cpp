@@ -44,7 +44,7 @@ int parse_dataset(std::ostringstream &data, std::vector<Task> &tasks) {
 		input >> word;
 		buffer[2] = std::stoi(word);
 
-		tasks.emplace_back(buffer[0], buffer[1], buffer[2]);
+		tasks.emplace_back(buffer[1], buffer[0], buffer[2]);
 	}	
 
 	return n_tasks;

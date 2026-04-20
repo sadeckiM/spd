@@ -18,6 +18,7 @@ int Problem::sort_algorithm(bool by_rj) {
     std::sort(p.perm.begin(), p.perm.end(), [&](const int a, const int b) {
     return t[a].rj < t[b].rj;
     });
+    std::cout << p << std::endl;
 	} else {
     std::sort(p.perm.begin(), p.perm.end(), [&](const int a, const int b) {
     return t[a].dj < t[b].dj;

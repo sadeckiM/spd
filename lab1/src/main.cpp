@@ -8,7 +8,7 @@
 int main() {
     std::ostringstream dane;
     std::vector<Task> tasks;
-    std::string file("../test2.txt");
+    std::string file("../100_Independent0290");
     importData(file, dane);
     int n = parse_dataset(dane, tasks);
     std::cout << "N: " << n << std::endl;
@@ -17,9 +17,9 @@ int main() {
     Problem problem(tasks, n);
     //std::cout << "Own algorithm: " << problem.own_algorithm() << std::endl;
     //std::cout << "Brute-force: " << problem.brute_force() << std::endl;
-    //std::cout << "Sort dj: " << problem.sort_algorithm() << std::endl;
+    std::cout << "Sort dj: " << problem.sort_algorithm() << std::endl;
     //std::cout << "Sort rj: " << problem.sort_algorithm(true) << std::endl;
-    std::cout << "Schrage: " << problem.Schrage() << std::endl;
+    //std::cout << "Schrage: " << problem.Schrage() << std::endl;
     //std::cout << "Schrage_preemptive: " << problem.Schrage_preemptive() << std::endl;
     return 0;
 }
