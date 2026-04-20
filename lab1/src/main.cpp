@@ -16,11 +16,11 @@ int main(int argc, char *argv[]) {
     std::string file(argv[1]);
     importData(file, dane);
     int n = parse_dataset(dane, tasks);
+    std::cout << "File: " << argv[1] << std::endl;
     std::cout << "N: " << n << std::endl;
     //Permutation p(n);
     //solution s(p, tasks);
     Problem problem(tasks, n);
-    std::cout << "Algorithm: " << argv[2] << std::endl;
     if(!strcmp(argv[2], "own")) {
     	std::cout << "Own algorithm: " << problem.own_algorithm() << std::endl;
     } else if (!strcmp(argv[2], "brute")) {

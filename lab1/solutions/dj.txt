@@ -1,0 +1,300 @@
+File: ../test/100_Independent0291
+N: 100
+Sort dj: t(by_dj): 312 [us]
+1686
+File: ../test/100_Independent0333
+N: 100
+Sort dj: t(by_dj): 340 [us]
+3759
+File: ../test/100_Independent0420
+N: 100
+Sort dj: t(by_dj): 250 [us]
+-1497
+File: ../test/100_Independent0600
+N: 100
+Sort dj: t(by_dj): 127 [us]
+2324
+File: ../test/100_Independent0601
+N: 100
+Sort dj: t(by_dj): 80 [us]
+1755
+File: ../test/100_Independent0602
+N: 100
+Sort dj: t(by_dj): 88 [us]
+2219
+File: ../test/100_Independent0603
+N: 100
+Sort dj: t(by_dj): 60 [us]
+2352
+File: ../test/100_Independent0604
+N: 100
+Sort dj: t(by_dj): 59 [us]
+2114
+File: ../test/100_Independent0605
+N: 100
+Sort dj: t(by_dj): 43 [us]
+2493
+File: ../test/100_Independent0606
+N: 100
+Sort dj: t(by_dj): 61 [us]
+2354
+File: ../test/100_Independent0607
+N: 100
+Sort dj: t(by_dj): 45 [us]
+2452
+File: ../test/100_Independent0608
+N: 100
+Sort dj: t(by_dj): 45 [us]
+2472
+File: ../test/100_Independent0609
+N: 100
+Sort dj: t(by_dj): 35 [us]
+2126
+File: ../test/100_Independent0610
+N: 100
+Sort dj: t(by_dj): 54 [us]
+1043
+File: ../test/100_Independent0611
+N: 100
+Sort dj: t(by_dj): 50 [us]
+1336
+File: ../test/100_Independent0612
+N: 100
+Sort dj: t(by_dj): 36 [us]
+1138
+File: ../test/100_Independent0613
+N: 100
+Sort dj: t(by_dj): 32 [us]
+1300
+File: ../test/100_Independent0614
+N: 100
+Sort dj: t(by_dj): 33 [us]
+1644
+File: ../test/100_Independent0615
+N: 100
+Sort dj: t(by_dj): 31 [us]
+1308
+File: ../test/100_Independent0616
+N: 100
+Sort dj: t(by_dj): 32 [us]
+1285
+File: ../test/100_Independent0617
+N: 100
+Sort dj: t(by_dj): 32 [us]
+965
+File: ../test/100_Independent0618
+N: 100
+Sort dj: t(by_dj): 31 [us]
+750
+File: ../test/100_Independent0619
+N: 100
+Sort dj: t(by_dj): 32 [us]
+512
+File: ../test/100_Independent0620
+N: 100
+Sort dj: t(by_dj): 96 [us]
+853
+File: ../test/100_Independent0621
+N: 100
+Sort dj: t(by_dj): 33 [us]
+1097
+File: ../test/100_Independent0622
+N: 100
+Sort dj: t(by_dj): 31 [us]
+933
+File: ../test/100_Independent0623
+N: 100
+Sort dj: t(by_dj): 53 [us]
+1051
+File: ../test/100_Independent0624
+N: 100
+Sort dj: t(by_dj): 31 [us]
+680
+File: ../test/100_Independent0625
+N: 100
+Sort dj: t(by_dj): 30 [us]
+294
+File: ../test/100_Independent0626
+N: 100
+Sort dj: t(by_dj): 41 [us]
+1322
+File: ../test/100_Independent0627
+N: 100
+Sort dj: t(by_dj): 32 [us]
+1080
+File: ../test/100_Independent0628
+N: 100
+Sort dj: t(by_dj): 45 [us]
+825
+File: ../test/100_Independent0629
+N: 100
+Sort dj: t(by_dj): 30 [us]
+507
+File: ../test/100_Independent0650
+N: 100
+Sort dj: t(by_dj): 46 [us]
+2365
+File: ../test/100_Independent0651
+N: 100
+Sort dj: t(by_dj): 33 [us]
+1926
+File: ../test/100_Independent0652
+N: 100
+Sort dj: t(by_dj): 33 [us]
+2034
+File: ../test/100_Independent0653
+N: 100
+Sort dj: t(by_dj): 32 [us]
+1960
+File: ../test/100_Independent0654
+N: 100
+Sort dj: t(by_dj): 32 [us]
+1928
+File: ../test/100_Independent0655
+N: 100
+Sort dj: t(by_dj): 37 [us]
+2345
+File: ../test/100_Independent0656
+N: 100
+Sort dj: t(by_dj): 32 [us]
+2247
+File: ../test/100_Independent0657
+N: 100
+Sort dj: t(by_dj): 32 [us]
+1815
+File: ../test/100_Independent0658
+N: 100
+Sort dj: t(by_dj): 32 [us]
+1997
+File: ../test/100_Independent0659
+N: 100
+Sort dj: t(by_dj): 32 [us]
+2424
+File: ../test/100_Independent0660
+N: 100
+Sort dj: t(by_dj): 32 [us]
+1120
+File: ../test/100_Independent0661
+N: 100
+Sort dj: t(by_dj): 31 [us]
+719
+File: ../test/100_Independent0662
+N: 100
+Sort dj: t(by_dj): 32 [us]
+1355
+File: ../test/100_Independent0663
+N: 100
+Sort dj: t(by_dj): 31 [us]
+1346
+File: ../test/100_Independent0664
+N: 100
+Sort dj: t(by_dj): 43 [us]
+944
+File: ../test/100_Independent0665
+N: 100
+Sort dj: t(by_dj): 40 [us]
+1021
+File: ../test/100_Independent0666
+N: 100
+Sort dj: t(by_dj): 42 [us]
+1229
+File: ../test/100_Independent0667
+N: 100
+Sort dj: t(by_dj): 32 [us]
+1090
+File: ../test/100_Independent0668
+N: 100
+Sort dj: t(by_dj): 44 [us]
+821
+File: ../test/100_Independent0669
+N: 100
+Sort dj: t(by_dj): 32 [us]
+1249
+File: ../test/100_Independent0670
+N: 100
+Sort dj: t(by_dj): 31 [us]
+214
+File: ../test/100_Independent0671
+N: 100
+Sort dj: t(by_dj): 31 [us]
+-168
+File: ../test/100_Independent0672
+N: 100
+Sort dj: t(by_dj): 32 [us]
+181
+File: ../test/100_Independent0673
+N: 100
+Sort dj: t(by_dj): 57 [us]
+-419
+File: ../test/100_Independent0674
+N: 100
+Sort dj: t(by_dj): 30 [us]
+-46
+File: ../test/100_Independent0675
+N: 100
+Sort dj: t(by_dj): 31 [us]
+104
+File: ../test/100_Independent0676
+N: 100
+Sort dj: t(by_dj): 32 [us]
+48
+File: ../test/100_Independent0677
+N: 100
+Sort dj: t(by_dj): 32 [us]
+-510
+File: ../test/100_Independent0678
+N: 100
+Sort dj: t(by_dj): 50 [us]
+4
+File: ../test/100_Independent0679
+N: 100
+Sort dj: t(by_dj): 33 [us]
+-419
+File: ../test/100_Independent0690
+N: 100
+Sort dj: t(by_dj): 32 [us]
+2367
+File: ../test/100_Independent0691
+N: 100
+Sort dj: t(by_dj): 35 [us]
+2140
+File: ../test/100_Independent0692
+N: 100
+Sort dj: t(by_dj): 44 [us]
+2267
+File: ../test/100_Independent0693
+N: 100
+Sort dj: t(by_dj): 46 [us]
+2141
+File: ../test/100_Independent0694
+N: 100
+Sort dj: t(by_dj): 32 [us]
+2427
+File: ../test/100_Independent0695
+N: 100
+Sort dj: t(by_dj): 32 [us]
+2025
+File: ../test/100_Independent0696
+N: 100
+Sort dj: t(by_dj): 33 [us]
+2166
+File: ../test/100_Independent0697
+N: 100
+Sort dj: t(by_dj): 33 [us]
+2329
+File: ../test/100_Independent0698
+N: 100
+Sort dj: t(by_dj): 34 [us]
+1825
+File: ../test/100_Independent0699
+N: 100
+Sort dj: t(by_dj): 31 [us]
+2231
+File: ../test/test2.txt
+N: 9
+Sort dj: t(by_dj): 3 [us]
+32
+File: ../test/test.txt
+N: 10
+Sort dj: t(by_dj): 3 [us]
+46
