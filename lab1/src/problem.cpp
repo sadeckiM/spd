@@ -18,7 +18,7 @@ int Problem::sort_algorithm(bool by_rj) {
     std::sort(p.perm.begin(), p.perm.end(), [&](const int a, const int b) {
     return t[a].rj < t[b].rj;
     });
-    std::cout << p << std::endl;
+    //std::cout << p << std::endl;
 	} else {
     std::sort(p.perm.begin(), p.perm.end(), [&](const int a, const int b) {
     return t[a].dj < t[b].dj;
@@ -28,10 +28,10 @@ int Problem::sort_algorithm(bool by_rj) {
   auto end = _clock_t::now();
   std::string param = "by_dj): ";
   if (by_rj) param = "by_rj): ";
-  std::cout << "t(" << param;
+  //std::cout << "t(" << param;
+  std::cout << result << "\t";
   std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
-                                                           start).count() <<
-      " [us]" << std::endl;
+                                                           start).count() << "\t";
 
 	return result;
 }
@@ -50,13 +50,12 @@ int Problem::brute_force() {
   } while(p.next_perm());
 
   p.perm = best_perm;
-  std::cout << "Best solution: " << best_sol << std::endl;
-  std::cout << p << std::endl;
+  std::cout << best_sol << "\t";
+  //std::cout << p << std::endl;
   auto end = _clock_t::now();
-  std::cout << "t = ";
+  //std::cout << "t = ";
   std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
-                                                           start).count() <<
-      " [us]" << std::endl;
+                                                           start).count() << "\t";
 
   return best_sol;
 }
@@ -73,10 +72,10 @@ int Problem::own_algorithm(){
 	}
   int result = s.solve();
   auto end = _clock_t::now();
-  std::cout << "t = ";
+  //std::cout << "t = ";
+  std::cout << result << "\t";
   std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
-                                                           start).count() <<
-      " [us]" << std::endl;
+                                                           start).count() << "\t";
 	return result;
 }
 
@@ -120,10 +119,9 @@ int Problem::Schrage(){
 			time = std::max(time, t[temp_task].rj);
 	}
   auto end = _clock_t::now();
-  std::cout << "t = ";
+  std::cout << Lmax << "\t";
   std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
-                                                           start).count() <<
-      " [us]" << std::endl;
+                                                           start).count() << "\t";
 	return Lmax;
 }
 
@@ -176,10 +174,9 @@ int Problem::Schrage_preemptive(){
 
 
   auto end = _clock_t::now();
-  std::cout << "t = ";
+  std::cout << Lmax << "\t";
   std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end -
-                                                           start).count() <<
-      " [us]" << std::endl;
+                                                           start).count() << "\t";
 	
 	return Lmax;
 }

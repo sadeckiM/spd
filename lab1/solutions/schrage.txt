@@ -1,300 +1,75 @@
-File: ../test/100_Independent0291
-N: 100
-Schrage: t = 730 [us]
-1019
-File: ../test/100_Independent0333
-N: 100
-Schrage: t = 786 [us]
-2723
-File: ../test/100_Independent0420
-N: 100
-Schrage: t = 1108 [us]
--1520
-File: ../test/100_Independent0600
-N: 100
-Schrage: t = 972 [us]
-1081
-File: ../test/100_Independent0601
-N: 100
-Schrage: t = 554 [us]
-739
-File: ../test/100_Independent0602
-N: 100
-Schrage: t = 230 [us]
-781
-File: ../test/100_Independent0603
-N: 100
-Schrage: t = 295 [us]
-1146
-File: ../test/100_Independent0604
-N: 100
-Schrage: t = 255 [us]
-964
-File: ../test/100_Independent0605
-N: 100
-Schrage: t = 172 [us]
-1138
-File: ../test/100_Independent0606
-N: 100
-Schrage: t = 166 [us]
-1001
-File: ../test/100_Independent0607
-N: 100
-Schrage: t = 137 [us]
-1233
-File: ../test/100_Independent0608
-N: 100
-Schrage: t = 134 [us]
-1100
-File: ../test/100_Independent0609
-N: 100
-Schrage: t = 114 [us]
-788
-File: ../test/100_Independent0610
-N: 100
-Schrage: t = 114 [us]
-860
-File: ../test/100_Independent0611
-N: 100
-Schrage: t = 116 [us]
-1039
-File: ../test/100_Independent0612
-N: 100
-Schrage: t = 115 [us]
-1002
-File: ../test/100_Independent0613
-N: 100
-Schrage: t = 113 [us]
-504
-File: ../test/100_Independent0614
-N: 100
-Schrage: t = 114 [us]
-1105
-File: ../test/100_Independent0615
-N: 100
-Schrage: t = 116 [us]
-887
-File: ../test/100_Independent0616
-N: 100
-Schrage: t = 141 [us]
-973
-File: ../test/100_Independent0617
-N: 100
-Schrage: t = 141 [us]
-762
-File: ../test/100_Independent0618
-N: 100
-Schrage: t = 151 [us]
-499
-File: ../test/100_Independent0619
-N: 100
-Schrage: t = 115 [us]
-469
-File: ../test/100_Independent0620
-N: 100
-Schrage: t = 114 [us]
-787
-File: ../test/100_Independent0621
-N: 100
-Schrage: t = 114 [us]
-985
-File: ../test/100_Independent0622
-N: 100
-Schrage: t = 114 [us]
-948
-File: ../test/100_Independent0623
-N: 100
-Schrage: t = 115 [us]
-1091
-File: ../test/100_Independent0624
-N: 100
-Schrage: t = 115 [us]
-641
-File: ../test/100_Independent0625
-N: 100
-Schrage: t = 115 [us]
-305
-File: ../test/100_Independent0626
-N: 100
-Schrage: t = 110 [us]
-1078
-File: ../test/100_Independent0627
-N: 100
-Schrage: t = 112 [us]
-980
-File: ../test/100_Independent0628
-N: 100
-Schrage: t = 115 [us]
-705
-File: ../test/100_Independent0629
-N: 100
-Schrage: t = 113 [us]
-526
-File: ../test/100_Independent0650
-N: 100
-Schrage: t = 123 [us]
-25
-File: ../test/100_Independent0651
-N: 100
-Schrage: t = 140 [us]
-45
-File: ../test/100_Independent0652
-N: 100
-Schrage: t = 112 [us]
-47
-File: ../test/100_Independent0653
-N: 100
-Schrage: t = 110 [us]
-48
-File: ../test/100_Independent0654
-N: 100
-Schrage: t = 96 [us]
-62
-File: ../test/100_Independent0655
-N: 100
-Schrage: t = 97 [us]
-33
-File: ../test/100_Independent0656
-N: 100
-Schrage: t = 98 [us]
-66
-File: ../test/100_Independent0657
-N: 100
-Schrage: t = 101 [us]
-74
-File: ../test/100_Independent0658
-N: 100
-Schrage: t = 97 [us]
-43
-File: ../test/100_Independent0659
-N: 100
-Schrage: t = 98 [us]
-84
-File: ../test/100_Independent0660
-N: 100
-Schrage: t = 99 [us]
--18
-File: ../test/100_Independent0661
-N: 100
-Schrage: t = 98 [us]
--379
-File: ../test/100_Independent0662
-N: 100
-Schrage: t = 98 [us]
--112
-File: ../test/100_Independent0663
-N: 100
-Schrage: t = 98 [us]
--31
-File: ../test/100_Independent0664
-N: 100
-Schrage: t = 102 [us]
--613
-File: ../test/100_Independent0665
-N: 100
-Schrage: t = 98 [us]
--238
-File: ../test/100_Independent0666
-N: 100
-Schrage: t = 179 [us]
--110
-File: ../test/100_Independent0667
-N: 100
-Schrage: t = 98 [us]
--337
-File: ../test/100_Independent0668
-N: 100
-Schrage: t = 97 [us]
--207
-File: ../test/100_Independent0669
-N: 100
-Schrage: t = 98 [us]
--127
-File: ../test/100_Independent0670
-N: 100
-Schrage: t = 110 [us]
--202
-File: ../test/100_Independent0671
-N: 100
-Schrage: t = 99 [us]
--812
-File: ../test/100_Independent0672
-N: 100
-Schrage: t = 123 [us]
--190
-File: ../test/100_Independent0673
-N: 100
-Schrage: t = 99 [us]
--701
-File: ../test/100_Independent0674
-N: 100
-Schrage: t = 96 [us]
--647
-File: ../test/100_Independent0675
-N: 100
-Schrage: t = 96 [us]
--269
-File: ../test/100_Independent0676
-N: 100
-Schrage: t = 93 [us]
--216
-File: ../test/100_Independent0677
-N: 100
-Schrage: t = 99 [us]
--749
-File: ../test/100_Independent0678
-N: 100
-Schrage: t = 97 [us]
--248
-File: ../test/100_Independent0679
-N: 100
-Schrage: t = 99 [us]
--674
-File: ../test/100_Independent0690
-N: 100
-Schrage: t = 97 [us]
-94
-File: ../test/100_Independent0691
-N: 100
-Schrage: t = 135 [us]
-54
-File: ../test/100_Independent0692
-N: 100
-Schrage: t = 98 [us]
-14
-File: ../test/100_Independent0693
-N: 100
-Schrage: t = 100 [us]
-38
-File: ../test/100_Independent0694
-N: 100
-Schrage: t = 98 [us]
-38
-File: ../test/100_Independent0695
-N: 100
-Schrage: t = 98 [us]
-141
-File: ../test/100_Independent0696
-N: 100
-Schrage: t = 127 [us]
-12
-File: ../test/100_Independent0697
-N: 100
-Schrage: t = 152 [us]
-113
-File: ../test/100_Independent0698
-N: 100
-Schrage: t = 98 [us]
-15
-File: ../test/100_Independent0699
-N: 100
-Schrage: t = 100 [us]
-58
-File: ../test/test2.txt
-N: 9
-Schrage: t = 13 [us]
-32
-File: ../test/test.txt
-N: 10
-Schrage: t = 10 [us]
-45
+1019	396	../test/100_Independent0291
+2723	234	../test/100_Independent0333
+-1520	172	../test/100_Independent0420
+1081	170	../test/100_Independent0600
+739	135	../test/100_Independent0601
+781	113	../test/100_Independent0602
+1146	114	../test/100_Independent0603
+964	101	../test/100_Independent0604
+1138	102	../test/100_Independent0605
+1001	122	../test/100_Independent0606
+1233	101	../test/100_Independent0607
+1100	119	../test/100_Independent0608
+788	102	../test/100_Independent0609
+860	99	../test/100_Independent0610
+1039	104	../test/100_Independent0611
+1002	102	../test/100_Independent0612
+504	98	../test/100_Independent0613
+1105	98	../test/100_Independent0614
+887	128	../test/100_Independent0615
+973	99	../test/100_Independent0616
+762	97	../test/100_Independent0617
+499	122	../test/100_Independent0618
+469	98	../test/100_Independent0619
+787	98	../test/100_Independent0620
+985	98	../test/100_Independent0621
+948	101	../test/100_Independent0622
+1091	117	../test/100_Independent0623
+641	124	../test/100_Independent0624
+305	99	../test/100_Independent0625
+1078	95	../test/100_Independent0626
+980	96	../test/100_Independent0627
+705	102	../test/100_Independent0628
+526	99	../test/100_Independent0629
+25	148	../test/100_Independent0650
+45	97	../test/100_Independent0651
+47	96	../test/100_Independent0652
+48	95	../test/100_Independent0653
+62	98	../test/100_Independent0654
+33	118	../test/100_Independent0655
+66	119	../test/100_Independent0656
+74	117	../test/100_Independent0657
+43	118	../test/100_Independent0658
+84	119	../test/100_Independent0659
+-18	99	../test/100_Independent0660
+-379	97	../test/100_Independent0661
+-112	97	../test/100_Independent0662
+-31	101	../test/100_Independent0663
+-613	115	../test/100_Independent0664
+-238	97	../test/100_Independent0665
+-110	98	../test/100_Independent0666
+-337	166	../test/100_Independent0667
+-207	97	../test/100_Independent0668
+-127	97	../test/100_Independent0669
+-202	101	../test/100_Independent0670
+-812	95	../test/100_Independent0671
+-190	97	../test/100_Independent0672
+-701	122	../test/100_Independent0673
+-647	97	../test/100_Independent0674
+-269	96	../test/100_Independent0675
+-216	107	../test/100_Independent0676
+-749	99	../test/100_Independent0677
+-248	100	../test/100_Independent0678
+-674	123	../test/100_Independent0679
+94	97	../test/100_Independent0690
+54	97	../test/100_Independent0691
+14	97	../test/100_Independent0692
+38	112	../test/100_Independent0693
+38	132	../test/100_Independent0694
+141	123	../test/100_Independent0695
+12	98	../test/100_Independent0696
+113	99	../test/100_Independent0697
+15	98	../test/100_Independent0698
+58	96	../test/100_Independent0699
+32	9	../test/test2.txt
+45	9	../test/test.txt

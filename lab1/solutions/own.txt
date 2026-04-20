@@ -1,300 +1,75 @@
-File: ../test/100_Independent0291
-N: 100
-Own algorithm: t = 9310 [us]
-5340
-File: ../test/100_Independent0333
-N: 100
-Own algorithm: t = 4345 [us]
-4539
-File: ../test/100_Independent0420
-N: 100
-Own algorithm: t = 4673 [us]
-2523
-File: ../test/100_Independent0600
-N: 100
-Own algorithm: t = 2503 [us]
-5281
-File: ../test/100_Independent0601
-N: 100
-Own algorithm: t = 1922 [us]
-4007
-File: ../test/100_Independent0602
-N: 100
-Own algorithm: t = 1642 [us]
-5673
-File: ../test/100_Independent0603
-N: 100
-Own algorithm: t = 1386 [us]
-4894
-File: ../test/100_Independent0604
-N: 100
-Own algorithm: t = 1303 [us]
-4938
-File: ../test/100_Independent0605
-N: 100
-Own algorithm: t = 1172 [us]
-4584
-File: ../test/100_Independent0606
-N: 100
-Own algorithm: t = 1218 [us]
-5470
-File: ../test/100_Independent0607
-N: 100
-Own algorithm: t = 1176 [us]
-4361
-File: ../test/100_Independent0608
-N: 100
-Own algorithm: t = 1170 [us]
-5352
-File: ../test/100_Independent0609
-N: 100
-Own algorithm: t = 1458 [us]
-5334
-File: ../test/100_Independent0610
-N: 100
-Own algorithm: t = 1397 [us]
-4759
-File: ../test/100_Independent0611
-N: 100
-Own algorithm: t = 1263 [us]
-5234
-File: ../test/100_Independent0612
-N: 100
-Own algorithm: t = 1222 [us]
-5431
-File: ../test/100_Independent0613
-N: 100
-Own algorithm: t = 1147 [us]
-4424
-File: ../test/100_Independent0614
-N: 100
-Own algorithm: t = 1203 [us]
-4901
-File: ../test/100_Independent0615
-N: 100
-Own algorithm: t = 1170 [us]
-5232
-File: ../test/100_Independent0616
-N: 100
-Own algorithm: t = 1149 [us]
-5270
-File: ../test/100_Independent0617
-N: 100
-Own algorithm: t = 1253 [us]
-5551
-File: ../test/100_Independent0618
-N: 100
-Own algorithm: t = 1432 [us]
-4287
-File: ../test/100_Independent0619
-N: 100
-Own algorithm: t = 1165 [us]
-5132
-File: ../test/100_Independent0620
-N: 100
-Own algorithm: t = 1196 [us]
-4375
-File: ../test/100_Independent0621
-N: 100
-Own algorithm: t = 1191 [us]
-4120
-File: ../test/100_Independent0622
-N: 100
-Own algorithm: t = 1160 [us]
-5105
-File: ../test/100_Independent0623
-N: 100
-Own algorithm: t = 1223 [us]
-5100
-File: ../test/100_Independent0624
-N: 100
-Own algorithm: t = 1254 [us]
-4762
-File: ../test/100_Independent0625
-N: 100
-Own algorithm: t = 1186 [us]
-4807
-File: ../test/100_Independent0626
-N: 100
-Own algorithm: t = 1182 [us]
-4687
-File: ../test/100_Independent0627
-N: 100
-Own algorithm: t = 1235 [us]
-5040
-File: ../test/100_Independent0628
-N: 100
-Own algorithm: t = 1484 [us]
-4768
-File: ../test/100_Independent0629
-N: 100
-Own algorithm: t = 1228 [us]
-5448
-File: ../test/100_Independent0650
-N: 100
-Own algorithm: t = 1176 [us]
-4236
-File: ../test/100_Independent0651
-N: 100
-Own algorithm: t = 1196 [us]
-3486
-File: ../test/100_Independent0652
-N: 100
-Own algorithm: t = 1236 [us]
-4608
-File: ../test/100_Independent0653
-N: 100
-Own algorithm: t = 1429 [us]
-4121
-File: ../test/100_Independent0654
-N: 100
-Own algorithm: t = 1179 [us]
-3498
-File: ../test/100_Independent0655
-N: 100
-Own algorithm: t = 1194 [us]
-3382
-File: ../test/100_Independent0656
-N: 100
-Own algorithm: t = 1181 [us]
-4010
-File: ../test/100_Independent0657
-N: 100
-Own algorithm: t = 1194 [us]
-4019
-File: ../test/100_Independent0658
-N: 100
-Own algorithm: t = 1460 [us]
-3281
-File: ../test/100_Independent0659
-N: 100
-Own algorithm: t = 1191 [us]
-3813
-File: ../test/100_Independent0660
-N: 100
-Own algorithm: t = 1186 [us]
-3833
-File: ../test/100_Independent0661
-N: 100
-Own algorithm: t = 1180 [us]
-3756
-File: ../test/100_Independent0662
-N: 100
-Own algorithm: t = 1179 [us]
-3709
-File: ../test/100_Independent0663
-N: 100
-Own algorithm: t = 1195 [us]
-4693
-File: ../test/100_Independent0664
-N: 100
-Own algorithm: t = 1208 [us]
-3516
-File: ../test/100_Independent0665
-N: 100
-Own algorithm: t = 1172 [us]
-3909
-File: ../test/100_Independent0666
-N: 100
-Own algorithm: t = 1185 [us]
-3780
-File: ../test/100_Independent0667
-N: 100
-Own algorithm: t = 1163 [us]
-4348
-File: ../test/100_Independent0668
-N: 100
-Own algorithm: t = 1212 [us]
-4295
-File: ../test/100_Independent0669
-N: 100
-Own algorithm: t = 1185 [us]
-3723
-File: ../test/100_Independent0670
-N: 100
-Own algorithm: t = 1196 [us]
-3320
-File: ../test/100_Independent0671
-N: 100
-Own algorithm: t = 1167 [us]
-3056
-File: ../test/100_Independent0672
-N: 100
-Own algorithm: t = 1179 [us]
-4280
-File: ../test/100_Independent0673
-N: 100
-Own algorithm: t = 1469 [us]
-3391
-File: ../test/100_Independent0674
-N: 100
-Own algorithm: t = 1160 [us]
-3192
-File: ../test/100_Independent0675
-N: 100
-Own algorithm: t = 2065 [us]
-4111
-File: ../test/100_Independent0676
-N: 100
-Own algorithm: t = 1485 [us]
-4458
-File: ../test/100_Independent0677
-N: 100
-Own algorithm: t = 1180 [us]
-3360
-File: ../test/100_Independent0678
-N: 100
-Own algorithm: t = 1172 [us]
-4150
-File: ../test/100_Independent0679
-N: 100
-Own algorithm: t = 1213 [us]
-4381
-File: ../test/100_Independent0690
-N: 100
-Own algorithm: t = 1218 [us]
-2186
-File: ../test/100_Independent0691
-N: 100
-Own algorithm: t = 1287 [us]
-2787
-File: ../test/100_Independent0692
-N: 100
-Own algorithm: t = 1232 [us]
-2644
-File: ../test/100_Independent0693
-N: 100
-Own algorithm: t = 1196 [us]
-2807
-File: ../test/100_Independent0694
-N: 100
-Own algorithm: t = 1202 [us]
-3242
-File: ../test/100_Independent0695
-N: 100
-Own algorithm: t = 1276 [us]
-2837
-File: ../test/100_Independent0696
-N: 100
-Own algorithm: t = 1378 [us]
-2777
-File: ../test/100_Independent0697
-N: 100
-Own algorithm: t = 1276 [us]
-2743
-File: ../test/100_Independent0698
-N: 100
-Own algorithm: t = 1249 [us]
-3318
-File: ../test/100_Independent0699
-N: 100
-Own algorithm: t = 1223 [us]
-3145
-File: ../test/test2.txt
-N: 9
-Own algorithm: t = 10 [us]
-49
-File: ../test/test.txt
-N: 10
-Own algorithm: t = 20 [us]
-62
+5340	11355	../test/100_Independent0291
+4539	7233	../test/100_Independent0333
+2523	2758	../test/100_Independent0420
+5281	2014	../test/100_Independent0600
+4007	1596	../test/100_Independent0601
+5673	1333	../test/100_Independent0602
+4894	1541	../test/100_Independent0603
+4938	1253	../test/100_Independent0604
+4584	1602	../test/100_Independent0605
+5470	1218	../test/100_Independent0606
+4361	1143	../test/100_Independent0607
+5352	1173	../test/100_Independent0608
+5334	1148	../test/100_Independent0609
+4759	1169	../test/100_Independent0610
+5234	1181	../test/100_Independent0611
+5431	1200	../test/100_Independent0612
+4424	1143	../test/100_Independent0613
+4901	1430	../test/100_Independent0614
+5232	1158	../test/100_Independent0615
+5270	1150	../test/100_Independent0616
+5551	1159	../test/100_Independent0617
+4287	1917	../test/100_Independent0618
+5132	1946	../test/100_Independent0619
+4375	1984	../test/100_Independent0620
+4120	1170	../test/100_Independent0621
+5105	1153	../test/100_Independent0622
+5100	1543	../test/100_Independent0623
+4762	1150	../test/100_Independent0624
+4807	1246	../test/100_Independent0625
+4687	1157	../test/100_Independent0626
+5040	1147	../test/100_Independent0627
+4768	1697	../test/100_Independent0628
+5448	1159	../test/100_Independent0629
+4236	1258	../test/100_Independent0650
+3486	1178	../test/100_Independent0651
+4608	1213	../test/100_Independent0652
+4121	1179	../test/100_Independent0653
+3498	1205	../test/100_Independent0654
+3382	1301	../test/100_Independent0655
+4010	1173	../test/100_Independent0656
+4019	1174	../test/100_Independent0657
+3281	1390	../test/100_Independent0658
+3813	1293	../test/100_Independent0659
+3833	1160	../test/100_Independent0660
+3756	1198	../test/100_Independent0661
+3709	1335	../test/100_Independent0662
+4693	1174	../test/100_Independent0663
+3516	1159	../test/100_Independent0664
+3909	1199	../test/100_Independent0665
+3780	1172	../test/100_Independent0666
+4348	1202	../test/100_Independent0667
+4295	1193	../test/100_Independent0668
+3723	1162	../test/100_Independent0669
+3320	1145	../test/100_Independent0670
+3056	1164	../test/100_Independent0671
+4280	1245	../test/100_Independent0672
+3391	1194	../test/100_Independent0673
+3192	1473	../test/100_Independent0674
+4111	1167	../test/100_Independent0675
+4458	1408	../test/100_Independent0676
+3360	1498	../test/100_Independent0677
+4150	1165	../test/100_Independent0678
+4381	1157	../test/100_Independent0679
+2186	1188	../test/100_Independent0690
+2787	1195	../test/100_Independent0691
+2644	1688	../test/100_Independent0692
+2807	1204	../test/100_Independent0693
+3242	1338	../test/100_Independent0694
+2837	1436	../test/100_Independent0695
+2777	1257	../test/100_Independent0696
+2743	1272	../test/100_Independent0697
+3318	1343	../test/100_Independent0698
+3145	1256	../test/100_Independent0699
+49	9	../test/test2.txt
+62	12	../test/test.txt

@@ -1,300 +1,75 @@
-File: ../test/100_Independent0291
-N: 100
-Schrage_preemptive: t = 855 [us]
-992
-File: ../test/100_Independent0333
-N: 100
-Schrage_preemptive: t = 800 [us]
-2708
-File: ../test/100_Independent0420
-N: 100
-Schrage_preemptive: t = 555 [us]
--1571
-File: ../test/100_Independent0600
-N: 100
-Schrage_preemptive: t = 413 [us]
-1036
-File: ../test/100_Independent0601
-N: 100
-Schrage_preemptive: t = 405 [us]
-728
-File: ../test/100_Independent0602
-N: 100
-Schrage_preemptive: t = 206 [us]
-700
-File: ../test/100_Independent0603
-N: 100
-Schrage_preemptive: t = 208 [us]
-1139
-File: ../test/100_Independent0604
-N: 100
-Schrage_preemptive: t = 189 [us]
-952
-File: ../test/100_Independent0605
-N: 100
-Schrage_preemptive: t = 215 [us]
-1110
-File: ../test/100_Independent0606
-N: 100
-Schrage_preemptive: t = 237 [us]
-975
-File: ../test/100_Independent0607
-N: 100
-Schrage_preemptive: t = 191 [us]
-1157
-File: ../test/100_Independent0608
-N: 100
-Schrage_preemptive: t = 209 [us]
-1095
-File: ../test/100_Independent0609
-N: 100
-Schrage_preemptive: t = 151 [us]
-734
-File: ../test/100_Independent0610
-N: 100
-Schrage_preemptive: t = 192 [us]
-810
-File: ../test/100_Independent0611
-N: 100
-Schrage_preemptive: t = 133 [us]
-1015
-File: ../test/100_Independent0612
-N: 100
-Schrage_preemptive: t = 128 [us]
-940
-File: ../test/100_Independent0613
-N: 100
-Schrage_preemptive: t = 114 [us]
-489
-File: ../test/100_Independent0614
-N: 100
-Schrage_preemptive: t = 113 [us]
-1058
-File: ../test/100_Independent0615
-N: 100
-Schrage_preemptive: t = 113 [us]
-797
-File: ../test/100_Independent0616
-N: 100
-Schrage_preemptive: t = 110 [us]
-915
-File: ../test/100_Independent0617
-N: 100
-Schrage_preemptive: t = 108 [us]
-714
-File: ../test/100_Independent0618
-N: 100
-Schrage_preemptive: t = 109 [us]
-444
-File: ../test/100_Independent0619
-N: 100
-Schrage_preemptive: t = 110 [us]
-390
-File: ../test/100_Independent0620
-N: 100
-Schrage_preemptive: t = 114 [us]
-785
-File: ../test/100_Independent0621
-N: 100
-Schrage_preemptive: t = 111 [us]
-933
-File: ../test/100_Independent0622
-N: 100
-Schrage_preemptive: t = 110 [us]
-933
-File: ../test/100_Independent0623
-N: 100
-Schrage_preemptive: t = 108 [us]
-1051
-File: ../test/100_Independent0624
-N: 100
-Schrage_preemptive: t = 113 [us]
-639
-File: ../test/100_Independent0625
-N: 100
-Schrage_preemptive: t = 113 [us]
-294
-File: ../test/100_Independent0626
-N: 100
-Schrage_preemptive: t = 110 [us]
-1060
-File: ../test/100_Independent0627
-N: 100
-Schrage_preemptive: t = 128 [us]
-963
-File: ../test/100_Independent0628
-N: 100
-Schrage_preemptive: t = 112 [us]
-669
-File: ../test/100_Independent0629
-N: 100
-Schrage_preemptive: t = 113 [us]
-507
-File: ../test/100_Independent0650
-N: 100
-Schrage_preemptive: t = 113 [us]
-25
-File: ../test/100_Independent0651
-N: 100
-Schrage_preemptive: t = 148 [us]
-45
-File: ../test/100_Independent0652
-N: 100
-Schrage_preemptive: t = 112 [us]
-47
-File: ../test/100_Independent0653
-N: 100
-Schrage_preemptive: t = 107 [us]
-48
-File: ../test/100_Independent0654
-N: 100
-Schrage_preemptive: t = 107 [us]
-62
-File: ../test/100_Independent0655
-N: 100
-Schrage_preemptive: t = 144 [us]
-33
-File: ../test/100_Independent0656
-N: 100
-Schrage_preemptive: t = 108 [us]
-66
-File: ../test/100_Independent0657
-N: 100
-Schrage_preemptive: t = 110 [us]
-64
-File: ../test/100_Independent0658
-N: 100
-Schrage_preemptive: t = 193 [us]
-43
-File: ../test/100_Independent0659
-N: 100
-Schrage_preemptive: t = 108 [us]
-84
-File: ../test/100_Independent0660
-N: 100
-Schrage_preemptive: t = 148 [us]
--69
-File: ../test/100_Independent0661
-N: 100
-Schrage_preemptive: t = 108 [us]
--423
-File: ../test/100_Independent0662
-N: 100
-Schrage_preemptive: t = 113 [us]
--154
-File: ../test/100_Independent0663
-N: 100
-Schrage_preemptive: t = 113 [us]
--38
-File: ../test/100_Independent0664
-N: 100
-Schrage_preemptive: t = 110 [us]
--671
-File: ../test/100_Independent0665
-N: 100
-Schrage_preemptive: t = 109 [us]
--277
-File: ../test/100_Independent0666
-N: 100
-Schrage_preemptive: t = 110 [us]
--125
-File: ../test/100_Independent0667
-N: 100
-Schrage_preemptive: t = 141 [us]
--358
-File: ../test/100_Independent0668
-N: 100
-Schrage_preemptive: t = 154 [us]
--209
-File: ../test/100_Independent0669
-N: 100
-Schrage_preemptive: t = 113 [us]
--186
-File: ../test/100_Independent0670
-N: 100
-Schrage_preemptive: t = 109 [us]
--256
-File: ../test/100_Independent0671
-N: 100
-Schrage_preemptive: t = 111 [us]
--841
-File: ../test/100_Independent0672
-N: 100
-Schrage_preemptive: t = 135 [us]
--255
-File: ../test/100_Independent0673
-N: 100
-Schrage_preemptive: t = 113 [us]
--710
-File: ../test/100_Independent0674
-N: 100
-Schrage_preemptive: t = 216 [us]
--669
-File: ../test/100_Independent0675
-N: 100
-Schrage_preemptive: t = 130 [us]
--285
-File: ../test/100_Independent0676
-N: 100
-Schrage_preemptive: t = 106 [us]
--305
-File: ../test/100_Independent0677
-N: 100
-Schrage_preemptive: t = 110 [us]
--753
-File: ../test/100_Independent0678
-N: 100
-Schrage_preemptive: t = 108 [us]
--290
-File: ../test/100_Independent0679
-N: 100
-Schrage_preemptive: t = 182 [us]
--683
-File: ../test/100_Independent0690
-N: 100
-Schrage_preemptive: t = 111 [us]
-94
-File: ../test/100_Independent0691
-N: 100
-Schrage_preemptive: t = 107 [us]
-54
-File: ../test/100_Independent0692
-N: 100
-Schrage_preemptive: t = 109 [us]
-14
-File: ../test/100_Independent0693
-N: 100
-Schrage_preemptive: t = 110 [us]
-38
-File: ../test/100_Independent0694
-N: 100
-Schrage_preemptive: t = 110 [us]
-30
-File: ../test/100_Independent0695
-N: 100
-Schrage_preemptive: t = 109 [us]
-141
-File: ../test/100_Independent0696
-N: 100
-Schrage_preemptive: t = 173 [us]
-12
-File: ../test/100_Independent0697
-N: 100
-Schrage_preemptive: t = 109 [us]
-113
-File: ../test/100_Independent0698
-N: 100
-Schrage_preemptive: t = 110 [us]
-15
-File: ../test/100_Independent0699
-N: 100
-Schrage_preemptive: t = 107 [us]
-58
-File: ../test/test2.txt
-N: 9
-Schrage_preemptive: t = 10 [us]
-32
-File: ../test/test.txt
-N: 10
-Schrage_preemptive: t = 12 [us]
-45
+992	157	../test/100_Independent0291
+2708	158	../test/100_Independent0333
+-1571	155	../test/100_Independent0420
+1036	166	../test/100_Independent0600
+728	153	../test/100_Independent0601
+700	157	../test/100_Independent0602
+1139	214	../test/100_Independent0603
+952	197	../test/100_Independent0604
+1110	164	../test/100_Independent0605
+975	128	../test/100_Independent0606
+1157	128	../test/100_Independent0607
+1095	109	../test/100_Independent0608
+734	109	../test/100_Independent0609
+810	136	../test/100_Independent0610
+1015	143	../test/100_Independent0611
+940	175	../test/100_Independent0612
+489	110	../test/100_Independent0613
+1058	111	../test/100_Independent0614
+797	111	../test/100_Independent0615
+915	111	../test/100_Independent0616
+714	109	../test/100_Independent0617
+444	175	../test/100_Independent0618
+390	112	../test/100_Independent0619
+785	112	../test/100_Independent0620
+933	109	../test/100_Independent0621
+933	110	../test/100_Independent0622
+1051	109	../test/100_Independent0623
+639	110	../test/100_Independent0624
+294	116	../test/100_Independent0625
+1060	107	../test/100_Independent0626
+963	110	../test/100_Independent0627
+669	111	../test/100_Independent0628
+507	110	../test/100_Independent0629
+25	182	../test/100_Independent0650
+45	111	../test/100_Independent0651
+47	140	../test/100_Independent0652
+48	112	../test/100_Independent0653
+62	113	../test/100_Independent0654
+33	111	../test/100_Independent0655
+66	111	../test/100_Independent0656
+64	142	../test/100_Independent0657
+43	111	../test/100_Independent0658
+84	170	../test/100_Independent0659
+-69	113	../test/100_Independent0660
+-423	111	../test/100_Independent0661
+-154	111	../test/100_Independent0662
+-38	142	../test/100_Independent0663
+-671	112	../test/100_Independent0664
+-277	163	../test/100_Independent0665
+-125	113	../test/100_Independent0666
+-358	197	../test/100_Independent0667
+-209	110	../test/100_Independent0668
+-186	124	../test/100_Independent0669
+-256	115	../test/100_Independent0670
+-841	109	../test/100_Independent0671
+-255	140	../test/100_Independent0672
+-710	112	../test/100_Independent0673
+-669	180	../test/100_Independent0674
+-285	152	../test/100_Independent0675
+-305	108	../test/100_Independent0676
+-753	111	../test/100_Independent0677
+-290	109	../test/100_Independent0678
+-683	112	../test/100_Independent0679
+94	110	../test/100_Independent0690
+54	109	../test/100_Independent0691
+14	119	../test/100_Independent0692
+38	111	../test/100_Independent0693
+30	115	../test/100_Independent0694
+141	110	../test/100_Independent0695
+12	111	../test/100_Independent0696
+113	111	../test/100_Independent0697
+15	112	../test/100_Independent0698
+58	146	../test/100_Independent0699
+32	12	../test/test2.txt
+45	14	../test/test.txt
