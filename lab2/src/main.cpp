@@ -1,6 +1,6 @@
 #include "import_tools.hh"
 #include "dataTypes.hh"
-#include "problem.hh"
+//#include "problem.hh"
 #include <iostream>
 #include <sstream>
 #include <vector>
@@ -8,14 +8,16 @@
 
 int main(int argc, char *argv[]) {
     std::ostringstream dane;
+    std::string file(argv[1]);
+    importData(file, dane);
+    Instance *n = parse_dataset(dane);
+    n->print();
+    /*
     std::vector<Task> tasks;
     if(argc < 3){
 	    std::cout << "Usage: " << argv[0] << " <plik_testowy>" << " <own|brute|sort_dj|sort_rj|schrage|p_schrage>"<< std::endl;
 	    return 0;
     }
-    std::string file(argv[1]);
-    importData(file, dane);
-    int n = parse_dataset(dane, tasks);
     //std::cout << "N: " << n << std::endl;
     //Permutation p(n);
     //solution s(p, tasks);
@@ -34,5 +36,6 @@ int main(int argc, char *argv[]) {
     	problem.Schrage_preemptive();
     }
     std::cout << argv[1] << std::endl;
+    */
     return 0;
 }

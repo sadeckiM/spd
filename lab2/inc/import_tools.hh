@@ -6,6 +6,6 @@
 #include "dataTypes.hh"
 
 bool importData(std::string &fileName, std::ostringstream &dest);
-int parse_dataset(std::ostringstream &data, std::vector<Task> &tasks);
+Instance *parse_dataset(std::ostringstream &data);
 
 #endif // IMPORT_TOOLS_HH
